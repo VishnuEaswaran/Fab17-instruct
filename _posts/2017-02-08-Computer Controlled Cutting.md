@@ -1,4 +1,4 @@
-#Why Press Fit
+# Why Press Fit
 
 Some of you could be wondering why the press fit is important, some if us did when we did these assignments.
 
@@ -17,7 +17,7 @@ Life or to be specific, cells of higher order life forms (>virus) are perfect ex
 They can exponentially grow, replicate but are also capable of making or doing other stuff than just 
 replication.
 
-####Ever imagined why this is possible?
+#### Ever imagined why this is possible?
 
 One of the very important reasons is that the life, as we know it is a big 'press fit' construction, made up of 
 simpler building blocks, may be less than 50 in number.
