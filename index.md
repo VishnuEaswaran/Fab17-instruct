@@ -7,7 +7,7 @@ layout: one
     <ul>
         {% for item in site.data.navigation %}
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
     </ul>
@@ -24,7 +24,7 @@ Here you will find resources for doing Fab Academy. We will try to accumulate al
     <ul>
         {% for post in site.posts %}
         <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
