@@ -2,8 +2,5 @@
 layout: post
 title: Electronic Design
 ---
-Electronic Design
-===
 
-
-Preparing :)
+on the way :)
