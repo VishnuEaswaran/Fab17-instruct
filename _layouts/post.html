@@ -4,18 +4,18 @@ layout: default
 
 <div class="post">
 	<div class="post__back">
-    	<a href="/">&lt;-- back</a>
+    	<a href="{{ site.baseurl }}/">&lt;-- back</a>
     </div>
     <div class="post__title">
-    	<h1>{{ page.title }}</h1>
+    	<h1>{{ site.baseurl }}{{ page.title }}</h1>
     </div>
     <div class="post__date">
-    	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
+    	<p>{{ site.baseurl }}{{ page.date | date: '%B %-d, %Y' }}</p>
     </div>
     <div class="post__meta">
-    	<p>{{ tags_content }}</p>
+    	<p>{{ site.baseurl }}{{ tags_content }}</p>
     </div>
     <div class="post__content"?>
-        {{ content }}
+        {{ site.baseurl }}{{ content }}
     </div>
 </div>
