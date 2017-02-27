@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     {% if page.title %}
-        <title>{{ page.title }}</title>
+        <title>{{ site.baseurl }}{{ page.title }}</title>
     {% else %}
-        <title>{{ site.name }}</title>
+        <title>{{ site.baseurl }}{{ site.name }}</title>
     {% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.baseurl }}{{ site.description }}">
 
     {% if site.google_verification %}
         <meta name="google-site-verification" content="{{ site.google_verify }}">
     {% endif %}
 
-    <link rel="icon" href="/assets/img/favicon.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png">
     <link rel="stylesheet"
 href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
 
 <body>
