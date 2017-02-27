@@ -7,7 +7,7 @@ layout: one
     <ul>
         {% for item in site.data.navigation %}
         <li>
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
     </ul>
