@@ -15,7 +15,8 @@ layout: one
 <!-- From here it is just markdown -->
 ## Hi there !!
 
-Here you will find resources for doing Fab Academy. We will try to accumulate all the references we find useful for both students and instructors. Hope this evolve into one big, organised, study material.
+Here you will find resources for doing Fab Academy. We will try to accumulate useful references for both students and instructors. Hope this evolve into one big, organised, study material.
+
 <p>
 <p> Best, </p>
 Vishnu, Yadu and Sibu

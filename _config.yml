@@ -5,8 +5,8 @@ permalink: /blog/:title
 # My variables
 name: Fab Academy guide
 description: For academy students and instructors
-#baseurl: /Fab17-instruct
-baseurl:
+baseurl: /Fab17-instruct
+#baseurl:
 google_verification: null
 
 
