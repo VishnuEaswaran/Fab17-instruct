@@ -12,12 +12,15 @@ layout: one
         {% endfor %}
     </ul>
 </div>
-
+<!-- From here it is just markdown -->
 ## Hi there !!
 
-Here you will find resources for doing Fab Academy. We will try to accumulate all the references we find useful for you guys and also describe exactly what the Foundation expects while evaluating your work. This is of course keeping Indian students in mind as the system followed during academy is totally different from our own ways of learning and teaching. There will be one post per week and the contents will evolve over time.
-
-
+Here you will find resources for doing Fab Academy. We will try to accumulate all the references we find useful for both students and instructors. Hope this evolve into one big, organised, study material.
+<p>
+<p> Best, </p>
+Vishnu, Yadu and Sibu
+</p>
+<!-- till here it is markdown -->
 
 <div class="blog">
     <h1>Posts::</h1>
