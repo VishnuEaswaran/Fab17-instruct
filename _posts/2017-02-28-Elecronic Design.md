@@ -14,14 +14,28 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 # Basic about Electronic components   ([Wiki](https://en.wikipedia.org/wiki/Electronic_component))
 
 - Electrical fundamentals - voltage, current and their relation.
+
+  - [Kirchhoff's law](https://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws)
+  - [Ohms's law](https://en.wikipedia.org/wiki/Ohm's_law)
+  - [Faraday's law of induction](https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction)
+
+
 - Active components
 - Passive components
+
+  - What are the active and passive components and what differentiates them? [Link](http://electronics.stackexchange.com/questions/82787/differentiation-between-passive-and-active-components)
+
+
+- FET vs BJT and power control using FET (Pulse Width Modulation PWM)
+
+  - current vs voltage control
+- [Operational Amplifier](https://en.wikipedia.org/wiki/Operational_amplifier)
 
 ### Pull-up/down Resistors, Internal Pull-up/down, filter capacitors.
 
 # Basic about Microcontrollers ([Wiki](https://en.wikipedia.org/wiki/Microcontroller))
 
-- What is a controller and what differentiate it from a processor ?
+- What is a controller and what differentiates it from a processor ?
 - The microcontroller families in your lab - AVR and PIC(rarely)
 - Architecture and different internal parts of a controller
 - Reading from the datasheet
@@ -70,9 +84,13 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
   Anyway, if you are new (and definitely if you are not new), we recommend learning something else, which you could use in future without spending thousands of $s for occasional PCB designing. KiCAD is a good opensource tool, recently gaining a large user base and library support, mainly because of Eagle going subscription model. [KiCAD Fab Lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)
 
-  Eagle was never an industry standard tool, it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option. [Eagle Fab lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+  Eagle was never an industry standard tool (Altium is one of the industry standard), it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option. [Eagle Fab lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
 
 ### Designing
+
+#### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+
+#### Fab Library for KiCAD  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
 
 - Design rules
 
@@ -82,6 +100,7 @@ Take a note that you have got interesting books in your lab itself. `The art of 
     - There are test patterns for this, you can create one for yourself as well.
     - Watch out for the corners, sometimes, especially when the traces are too thin and/or the resolution is poor, traces that are not horizontally or vertically aligned may not get milled out perfectly.
     - Autorouters can be set to favour some angles or alignments.
+    - __MANUAL VS AUTO ROUTING__
 
   - Related to pads, vias and distance between adjacent ones.
 
@@ -95,8 +114,13 @@ Take a note that you have got interesting books in your lab itself. `The art of 
   - editing existing library.
   - importing exporting libraries, (for example Eagle to KiCAD)
 
+### Making the circuit  
+
 - Designing and making double sided/multilayered PCB.
 
   - Making double-sided PCB is relatively easy, but going multilayered requires some work, you can do this by stacking single sided PCBs over a double sided PCB, which makes the board very thick. Alternatively you can also use the vinyl cutter and the copper adhesive to cut each layers (and the separator) and paste on top of a normal PCB, with the separator. (again these are advanced techniques or hacks, so ask you instructor for details, [sibu](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/281/w3/w3.html) has done some basic multilayered circuit. ![4-layer-antenna](<https://sibusaman.github.io/fab2016/w3/2-layer-light.jpg>)
+
+
+- Debugging  
 
 Some nice examples:
