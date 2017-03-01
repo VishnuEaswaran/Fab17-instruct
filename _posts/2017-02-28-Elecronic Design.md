@@ -127,14 +127,15 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 ## Workflow
 
-  Almost all of the PCB design softwares follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualise the actual PCB, where you decide where to physically place the component on the final board etc. After that you will do a process called `Routing`.
+  Almost all of the PCB design softwares follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualise the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called `Routing`. The routing step is where you will connect the components using wires.
 
-  1. Schematic
+  1. Schematic (check ERC)
   2. Board layout
-  3. Routing
-  4. Stuffing
-  5. Debugging
-  6. Hero Shot
+  3. Routing (check DRC)
+  4. Milling
+  5. Stuffing
+  6. Debugging
+  7. Hero Shot
 
 
 ## Simulating circuits
@@ -143,3 +144,25 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 
 Some nice examples:
+
+
+
+
+
+# Some referances
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JrH_itjMDjo" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sffuvnGhano" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O0ifJ4oVdG4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WBfAEeEzDlg" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ht48vv0rQYk?list=PLvOlSehNtuHtWlH0UOZNtOn-FlFCn1GYw" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qUeK7pHe0rI?list=PLvOlSehNtuHtWlH0UOZNtOn-FlFCn1GYw" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7FYHt5XviKc?list=PLvOlSehNtuHtWlH0UOZNtOn-FlFCn1GYw" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8f-2yXiYmRI" frameborder="0" allowfullscreen></iframe>
