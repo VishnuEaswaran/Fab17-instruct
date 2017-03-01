@@ -74,6 +74,8 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 - Design rules
 
+  This week we will be concerned about the tolerances while drawing traces, placement of components, and the things we have to take care keeping milling machine, the one available in your lab, in mind. Remember that PCB can be manufactured in many ways and milling is just one of them, so according to the manufacturing techniques the tolerances will vary.  
+
   - Related to traces
 
     - You will have to figure out the minimum trace width which can be milled. I the trace is too thin, it may come off during the milling or during the soldering.
@@ -90,11 +92,28 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 - Designing custom library/part.
 
+    This could be fun, try to make edit existing components later try to make a custom component.
+
   - editing existing library.
   - importing exporting libraries, (for example Eagle to KiCAD)
 
 - Designing and making double sided/multilayered PCB.
 
   - Making double-sided PCB is relatively easy, but going multilayered requires some work, you can do this by stacking single sided PCBs over a double sided PCB, which makes the board very thick. Alternatively you can also use the vinyl cutter and the copper adhesive to cut each layers (and the separator) and paste on top of a normal PCB, with the separator. (again these are advanced techniques or hacks, so ask you instructor for details, [sibu](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/281/w3/w3.html) has done some basic multilayered circuit. ![4-layer-antenna](<https://sibusaman.github.io/fab2016/w3/2-layer-light.jpg>)
+
+## Design workflow
+
+  Almost all of the PCB design softwares follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualise the actual PCB, where you decide where to physically place the component on the final board etc. After that you will do a process called `Routing`.
+
+  1. Schematic
+  2. Board layout
+  3. Routing
+
+
+## Simulating circuits
+
+  Simulation here means without making the actual board try to simulate/predict the outcome of the circuit. This, as Neil said, is used mostly for very complex circuits as it save time and money than making a sample/prototype.
+
+
 
 Some nice examples:
