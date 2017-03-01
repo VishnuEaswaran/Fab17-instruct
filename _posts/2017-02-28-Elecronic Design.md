@@ -17,6 +17,8 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 - Active components
 - Passive components
 
+### Pull-up/down Resistors, Internal Pull-up/down, filter capacitors.
+
 # Basic about Microcontrollers ([Wiki](https://en.wikipedia.org/wiki/Microcontroller))
 
 - What is a controller and what differentiate it from a processor ?
