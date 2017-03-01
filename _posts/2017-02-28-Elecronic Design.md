@@ -101,8 +101,8 @@ Take a note that you have got interesting books in your lab itself. `The art of 
     - You will have to figure out the minimum trace width which can be milled. I the trace is too thin, it may come off during the milling or during the soldering.
     - There are test patterns for this, you can create one for yourself as well.
     - Watch out for the corners, sometimes, especially when the traces are too thin and/or the resolution is poor, traces that are not horizontally or vertically aligned may not get milled out perfectly.
-    - Autorouters can be set to favour some angles or alignments.
-    - __MANUAL VS AUTO ROUTING__
+    - Auto-routers can be set to favor some angles or alignments.
+    - __MANUAL VS AUTO-ROUTING__
 
   - Related to pads, vias and distance between adjacent ones.
 
@@ -127,7 +127,7 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 ## Workflow
 
-  Almost all of the PCB design softwares follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualise the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called `Routing`. The routing step is where you will connect the components using wires.
+  Almost all of the PCB design software's follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualize the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called `Routing`. The routing step is where you will connect the components using wires.
 
   1. Schematic (check ERC)
   2. Board layout
