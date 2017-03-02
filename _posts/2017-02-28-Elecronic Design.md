@@ -9,7 +9,22 @@ This week we will learn to design PCB's and in the process about the components/
 
 2. Circuit Design
 
-Take a note that you have got interesting books in your lab itself. `The art of electronics` by `Horowitz and Hill` which is THE Bible of electronics and circuit-design so please spend sometime "offline" and get a feel of the book. All the topics listed below can be found there except the specifics of design softwares.
+Take a note that you have got interesting books in your lab itself. __The art of electronics__ by `Horowitz and Hill` which is THE Bible of electronics and circuit-design so please spend sometime "offline" and get a feel of the book. All the topics listed below can be found there except the specifics of design softwares.
+
+# Goals for this week
+
+* Redraw the echo [hello-world board](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.png) to include at least an LED and a switch.
+* Calculate the value of the current limiting resistors.
+* Explain why you are using/not using Pull-up/down resistors for the switch.
+* Test and make sure that the board is working.
+* Debug, tinker, hack, do whatever it takes to make the board working (except making a new board or replacing the chip).
+* If you had to modify the circuit while trying to fix, or add or remove components, then redraw the circuit and make a fresh board.
+* Try different design tools.
+* Try simulating some circuits.
+
+__or__
+
+ __if you are adventurous or feels that all these are silly, scrap all these just make your own board having the serial interface and containing at least a button and an LED.__
 
 # Basic about Electronic components   ([Wiki](https://en.wikipedia.org/wiki/Electronic_component))
 
@@ -43,7 +58,7 @@ Take a note that you have got interesting books in your lab itself. `The art of 
   - Registers
 
     - Register functions options
-    - Register availabilities and custom names for specific chips
+    - Register availability and custom names for specific chips
 
   - Interrupts
 
