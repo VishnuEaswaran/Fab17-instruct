@@ -98,7 +98,7 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
   - Related to traces
 
-    - You will have to figure out the minimum trace width which can be milled. I the trace is too thin, it may come off during the milling or during the soldering.
+    - You will have to figure out the minimum trace width which can be milled. If the trace is too thin, it may come off during the milling or during the soldering.
     - There are test patterns for this, you can create one for yourself as well.
     - Watch out for the corners, sometimes, especially when the traces are too thin and/or the resolution is poor, traces that are not horizontally or vertically aligned may not get milled out perfectly.
     - Auto-routers can be set to favor some angles or alignments.
@@ -122,12 +122,12 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
 - Designing and making double sided/multilayered PCB.
 
-  - Making double-sided PCB is relatively easy, but going multilayered requires some work, you can do this by stacking single sided PCBs over a double sided PCB, which makes the board very thick. Alternatively you can also use the vinyl cutter and the copper adhesive to cut each layers (and the separator) and paste on top of a normal PCB, with the separator. (again these are advanced techniques or hacks, so ask you instructor for details, [sibu](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/281/w3/w3.html) has done some basic multilayered circuit. ![4-layer-antenna](<https://sibusaman.github.io/fab2016/w3/2-layer-light.jpg>)
+  - Making double-sided PCB is relatively easy, but going multilayered requires some work, you can do this by stacking single sided PCBs over a double sided PCB, which makes the board very thick. Alternatively you can also use the vinyl cutter and the copper adhesive to cut each layers (and the separator) and paste on top of a normal PCB, with the separator. (again these are advanced techniques or hacks, so, ask your instructor for details, [sibu](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/281/w3/w3.html) has done some basic multilayered circuit. ![4-layer-antenna](<https://sibusaman.github.io/fab2016/w3/2-layer-light.jpg>)
 
 
 ## Workflow
 
-  Almost all of the PCB design software's follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualize the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called `Routing`. The routing step is where you will connect the components using wires.
+  Almost all of the PCB design software's follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualize the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called routing. The routing step is where you will connect the components using wires.
 
   1. Schematic (check ERC)
   2. Board layout
