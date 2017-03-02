@@ -159,9 +159,13 @@ __or__
 
   Almost all of the PCB design software's follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualize the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called routing. The routing step is where you will connect the components using wires.
 
-  1. Schematic (check ERC)
+  1. Schematic
+    * ERC (Electrical Rule Check)
+    * Choosing the right component package
   2. Board layout
-  3. Routing (check DRC)
+    * Optimal component placement for minimal signal path
+  3. Routing
+    * DRC (Design Rule Check)
   4. Milling
   5. Stuffing
   6. Debugging
