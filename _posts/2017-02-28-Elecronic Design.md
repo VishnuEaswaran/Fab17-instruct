@@ -104,20 +104,23 @@ __or__
 
   __Here are some links to the tutorials and other useful stuff related to design tools (especially Eagle and Kicad).__
 
-- [KiCAD Fab Lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)
-
-- [Eagle Fab lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
-
 - [Eagle 101](https://learn.sparkfun.com/tutorials/tags/eagle)
 
 - [KiCAD](http://kicad-pcb.org/help/tutorials/)
 
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
+
+
+
+##### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+
+##### Fab Library for KiCAD  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+
+* adding libraries
+  * [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
+  * [Kicad](https://www.accelerated-designs.com/help/KiCad_Library.html)
+
 ### Designing
-
-#### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
-
-#### Fab Library for KiCAD  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
 
 - Design rules
 
