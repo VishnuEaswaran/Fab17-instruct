@@ -81,7 +81,7 @@ __or__
 
 # Circuit-Design
 
-### About Softwares
+## About Softwares
 
 - Intro to popular softwares
 
@@ -113,9 +113,9 @@ __or__
 
 
 
-##### Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+## Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
 
-##### Fab Library for KiCAD -  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib), [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+## Fab Library for KiCAD -  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib), [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
 
 
 * How to add libraries
@@ -126,8 +126,7 @@ __or__
 
 
 
-### Designing
-
+## Designing
 
 - Design rules
 
@@ -155,7 +154,7 @@ __or__
   - editing existing library.
   - importing exporting libraries, (for example Eagle to KiCAD)
 
-### Making the circuit  
+## Making the circuit  
 
 - Designing and making double sided/multilayered PCB.
 
