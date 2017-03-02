@@ -99,7 +99,7 @@ __or__
 
   Anyway, if you are new (and definitely if you are not new), we recommend learning something else, which you could use in future without spending thousands of $s for occasional PCB designing. KiCAD is a good opensource tool, recently gaining a large user base and library support, mainly because of Eagle going subscription model.
 
-  Eagle was never an industry standard tool (Altium is one of the industry standard), it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option.
+  Eagle was never an industry standard tool (Altium, Proteus is one of the industry standard), it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option.
 
 
   __Here are some links to the tutorials and other useful stuff related to design tools (especially Eagle and Kicad).__
@@ -108,19 +108,26 @@ __or__
 
 - [KiCAD](http://kicad-pcb.org/help/tutorials/)
 
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
 
 
 
-##### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
 
-##### Fab Library for KiCAD  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+##### Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
 
-* adding libraries
-  * [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
-  * [Kicad](https://www.accelerated-designs.com/help/KiCad_Library.html)
+##### Fab Library for KiCAD -  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib), [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+
+
+* How to add libraries
+
+  - [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
+
+  - [Kicad](https://www.accelerated-designs.com/help/KiCad_Library.html)
+
+
 
 ### Designing
+
 
 - Design rules
 
@@ -131,7 +138,7 @@ __or__
     - You will have to figure out the minimum trace width which can be milled. If the trace is too thin, it may come off during the milling or during the soldering.
     - There are test patterns for this, you can create one for yourself as well.
     - Watch out for the corners, sometimes, especially when the traces are too thin and/or the resolution is poor, traces that are not horizontally or vertically aligned may not get milled out perfectly.
-    - Auto-routers can be set to favor some angles or alignments.
+    - Auto-routers can be set to favour some angles or alignments.
     - __MANUAL VS AUTO-ROUTING__
 
   - Related to pads, vias and distance between adjacent ones.
@@ -159,28 +166,22 @@ __or__
 
   Almost all of the PCB design software's follow similar workflow. You start with `Schematic` where you draw the circuit digitally, using symbols for actual components, and then move on to `Board` layout where you visualize the actual PCB, where you decide where to physically place and orient the component on the final board etc. After that you will do a process called routing. The routing step is where you will connect the components using wires.
 
-  1. Schematic
+  * Schematic
     * ERC (Electrical Rule Check)
     * Choosing the right component package
-  2. Board layout
+  * Board layout
     * Optimal component placement for minimal signal path
-  3. Routing
+  * Routing
     * DRC (Design Rule Check)
-  4. Milling
-  5. Stuffing
-  6. Debugging
-  7. Hero Shot
+  * Milling
+  * Stuffing
+  * Debugging
+  * Hero Shot
 
 
 ## Simulating circuits
 
   Simulation here means without making the actual board try to simulate/predict the outcome of the circuit. This, as Neil said, is used mostly for very complex circuits as it save time and money than making a sample/prototype.
-
-
-Some nice examples:
-
-
-
 
 
 # Curious to know more?
