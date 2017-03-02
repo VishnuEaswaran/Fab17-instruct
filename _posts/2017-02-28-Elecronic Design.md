@@ -82,10 +82,22 @@ Take a note that you have got interesting books in your lab itself. `The art of 
 
   Everybody wants to use Eagle, which is a commonly used software and was recently bought by Autocad and is now following their standard subscription model. Which means you have to be online at least once every 2 weeks.
 
-  Anyway, if you are new (and definitely if you are not new), we recommend learning something else, which you could use in future without spending thousands of $s for occasional PCB designing. KiCAD is a good opensource tool, recently gaining a large user base and library support, mainly because of Eagle going subscription model. [KiCAD Fab Lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)
+  Anyway, if you are new (and definitely if you are not new), we recommend learning something else, which you could use in future without spending thousands of $s for occasional PCB designing. KiCAD is a good opensource tool, recently gaining a large user base and library support, mainly because of Eagle going subscription model.
 
-  Eagle was never an industry standard tool (Altium is one of the industry standard), it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option. [Eagle Fab lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+  Eagle was never an industry standard tool (Altium is one of the industry standard), it was mainly used by small companies who makes PCBs occasionally, by hobbyists, communities like maker/hackerspaces. So if you were thinking about learning a industry standard PCB designing tool, Eagle is not the best option.
 
+
+  __Here are some links to the tutorials and other useful stuff related to design tools (especially Eagle and Kicad).__
+
+- [KiCAD Fab Lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)
+
+- [Eagle Fab lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+
+- [Eagle 101](https://learn.sparkfun.com/tutorials/tags/eagle)
+
+- [KiCAD](http://kicad-pcb.org/help/tutorials/)
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
 ### Designing
 
 #### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
@@ -149,7 +161,7 @@ Some nice examples:
 
 
 
-# Some referances
+# Curious to know more?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JrH_itjMDjo" frameborder="0" allowfullscreen></iframe>
 
