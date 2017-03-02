@@ -106,15 +106,18 @@ __or__
 
 - [Eagle 101](https://learn.sparkfun.com/tutorials/tags/eagle)
 
-- [KiCAD](http://kicad-pcb.org/help/tutorials/)
+- [KiCAD](http://kicad-pcb.org/help/tutorials/) __based on the user feedback, this doc is, by far the best option to learn Kicad. You can download and keep an [offline PDF](http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf) version or refer to the [html](http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.html) version.__
 
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
+- [Kicad video tutorial](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
 
 
 ##### [Fab Library for eagle](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
 
-##### Fab Library for KiCAD  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+##### Fab Library for KiCAD  
+* [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  
+* [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+* [KiCAD Library from a 2016 student](http://archive.fabacademy.org/2016/fablabhrw/students/165/inventory_library.html)
 
 * adding libraries
   * [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
