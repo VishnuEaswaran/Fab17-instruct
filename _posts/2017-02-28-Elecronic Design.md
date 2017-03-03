@@ -9,7 +9,7 @@ This week we will learn to design PCB's and in the process about the components/
 
 2. Circuit Design
 
-Take a note that you have got interesting books in your lab itself. __The art of electronics__ by `Horowitz and Hill` which is THE Bible of electronics and circuit-design so please spend sometime "offline" and get a feel of the book. All the topics listed below can be found there except the specifics of design softwares.
+Take a note that you have got interesting books in your lab itself. __The art of electronics__ by `Horowitz and Hill` which is The Bible of electronics and circuit-design so please spend sometime "offline" and get a feel of the book. __We would highly recommend that you read the first couple of chapters, first  chapter for sure. Even if you are a seasoned electronics/electrical engineer, you will learn something.__ All the topics listed below can be found there except the specifics of design tools.
 
 # Goals for this week
 
@@ -81,7 +81,7 @@ __or__
 
 # Circuit-Design
 
-# About Softwares
+## About Softwares
 
 - Intro to popular softwares
 
@@ -104,23 +104,30 @@ __or__
 
   __Here are some links to the tutorials and other useful stuff related to design tools (especially Eagle and Kicad).__
 
-- [Eagle 101](https://learn.sparkfun.com/tutorials/tags/eagle)
+- **Eagle** - Essential for [beginners](https://www.youtube.com/playlist?list=PL868B73617C6F6FAD), SparkFun [Tutorials](https://learn.sparkfun.com/tutorials/tags/eagle)
 
-- [KiCAD](http://kicad-pcb.org/help/tutorials/)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
+- [KiCAD](http://kicad-pcb.org/help/tutorials/) __based on the user feedback, this doc is, by far the best option to learn Kicad. You can download and keep an [offline PDF](http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf) version or refer to the [html](http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.html) version.__
 
 
+- [Kicad video tutorial](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
-
+<<<<<<< HEAD
 ## Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+=======
 
-## Fab Library for KiCAD -  [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib), [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+##### Fab Library for KiCAD  
+* [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  
+* [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
+* [KiCAD Library from a 2016 student](http://archive.fabacademy.org/2016/fablabhrw/students/165/inventory_library.html)
+
+##### Fab Library for eagle
+- [lbr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+>>>>>>> efb0e5bfff5948c291228144c7c3fca8275015a0
 
 
-* How to add libraries
+#### How to add libraries
 
-  - [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
+  - Eagle - One can, in linux, easily add any library by adding the `.lbr` to the `.eagle/lbr` folder which will can be found in your `home` folder. You can also add the library from the software and [here](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library) you will find how to do it.
 
   - [Kicad](https://www.accelerated-designs.com/help/KiCad_Library.html)
 
