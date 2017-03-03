@@ -216,6 +216,18 @@ blockquote {
 			margin-top: 25px;
 			margin-bottom: 5px;
 		}
+		h3 {
+			font-size: 1em;
+			font-weight: 700;
+			margin-top: 25px;
+			margin-bottom: 5px;
+		}
+		h4 {
+			font-size: 1em;
+			font-weight: 700;
+			margin-top: 25px;
+			margin-bottom: 5px;
+		}
 		p {
 			font-size: 1em;
 			line-height: 150%;
@@ -260,6 +272,21 @@ blockquote {
 				width: 100%;
 				margin: auto;
 			}
+		}
+		video {
+    max-width: 100%;
+    height: auto;
+		}
+		embed:focus {
+    outline: none;
+		max-width: 100%;
+		height: auto;
+		}
+		iframe:focus {
+    outline: none;
+		}
+		iframe[seamless] {
+    display: block;
 		}
 		code {
 			padding: 3px;

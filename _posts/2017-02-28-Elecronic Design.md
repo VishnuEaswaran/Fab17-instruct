@@ -104,13 +104,11 @@ __or__
 
   __Here are some links to the tutorials and other useful stuff related to design tools (especially Eagle and Kicad).__
 
-- [Eagle 101](https://learn.sparkfun.com/tutorials/tags/eagle)
+- **Eagle** - Essential for [beginners](https://www.youtube.com/playlist?list=PL868B73617C6F6FAD), SparkFun [Tutorials](https://learn.sparkfun.com/tutorials/tags/eagle)
 
 - [KiCAD](http://kicad-pcb.org/help/tutorials/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allowfullscreen></iframe>
-
-
 
 
 ## Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
@@ -120,7 +118,7 @@ __or__
 
 * How to add libraries
 
-  - [Eagle](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library)
+  - Eagle - One can, in linux, easily add any library by adding the `.lbr` to the `.eagle/lbr` folder which will can be found in your `home` folder. You can also add the library from the software and [here](https://learn.adafruit.com/eagle-tutorial-how-to-add-a-new-package-to-a-component/new-library) you will find how to do it. 
 
   - [Kicad](https://www.accelerated-designs.com/help/KiCad_Library.html)
 
