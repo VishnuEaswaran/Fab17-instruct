@@ -111,18 +111,16 @@ __or__
 
 - [Kicad video tutorial](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
-<<<<<<< HEAD
-## Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
-=======
 
-##### Fab Library for KiCAD  
+## Fab Library for eagle - [libr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
+
+### Fab Library for KiCAD  
 * [lib](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lib)  
 * [mod](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.mod)
 * [KiCAD Library from a 2016 student](http://archive.fabacademy.org/2016/fablabhrw/students/165/inventory_library.html)
 
-##### Fab Library for eagle
+### Fab Library for eagle
 - [lbr](http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr)
->>>>>>> efb0e5bfff5948c291228144c7c3fca8275015a0
 
 
 #### How to add libraries
