@@ -190,6 +190,19 @@ __or__
 
   Simulation here means without making the actual board try to simulate/predict the outcome of the circuit. This, as Neil said, is used mostly for very complex circuits as it save time and money than making a sample/prototype.
 
+# Programming the board for testing
+
+  The last thing you have to do is test that your board work fine. Go ahead and download the [make](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c.make) and [C](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c) files. Open a Terminal and move to the directory which have the downloaded files.
+  Now we have to use a program called [Make](https://www.gnu.org/software/make/) to use the *Make* file given by Neil. The command to be given is
+
+  'make -f <NAME_OF_MAKEFILE> <OPTION>'
+   the <OPTION> can be a any given in the make file, here in particular we have options for making *.hex, out, burn fuses and program*. The order must be
+   - `make -f hello.ftdi.44.echo.c.make` for compiling and getting out and hex files
+   - `make -f hello.ftdi.44.echo.c.make program-usbtiny-fuses` for setting the fuses
+   - `make -f hello.ftdi.44.echo.c.make program-usbtiny` for programming the board
+
+  The quickest way is to use Yadu's [compflash](https://github.com/yadusharon/compflash) which is a beautiful tool to do all of the above steps easily. Just give the input file as the downloaded *c* file, choose the board as *Attiny44* and clock as 20Mhz then compile and burn. If all goes well it should give a successful message otherwise troubleshoot the issue and try to program again.  
+
 
 # Curious to know more?
 
