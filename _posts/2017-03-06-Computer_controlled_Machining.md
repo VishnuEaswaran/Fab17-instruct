@@ -7,7 +7,7 @@ Quintessence
 ===
 This week we are going to make something [BIG](http://blog.ted.com/2008/07/15/digitally_fabbe/) using the CNC machine/s and of course document all that. The large format machine in our lab is [ShopBot](http://www.shopbottools.com/mProducts/prSalpha.htm). The Modella MDX 20 we used for milling PCB's is not just for that but also for milling many other materials. As Neil puts it "You will learn you need not buy your furniture but make them yourself"
 
-Ito the Details
+Into the Details
 ===
 
 This weeks objectives are
