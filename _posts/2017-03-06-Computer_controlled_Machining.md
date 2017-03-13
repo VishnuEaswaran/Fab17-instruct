@@ -7,7 +7,7 @@ Quintessence
 ===
 This week we are going to make something [BIG](http://blog.ted.com/2008/07/15/digitally_fabbe/) using the CNC machine/s and of course document all that. The large format machine in our lab is [ShopBot](http://www.shopbottools.com/mProducts/prSalpha.htm). The Modella MDX 20 we used for milling PCB's is not just for that but also for milling many other materials. As Neil puts it "You will learn you need not buy your furniture but make them yourself"
 
-Details
+Ito the Details
 ===
 
 This weeks objectives are
@@ -74,4 +74,4 @@ This is gonna be a very long list as there are many trivial, typical and frequen
 * Tighten the collet as desired and don't overdo it.
 * check if the spindle is at prescribed speed.
 * Always have the cutting placed as the last step of the job as once the piece is completely separated from the board, it can come loose and thus all the alignments are lost.  
-* Don't forget to zero the x, y and z axis properly. 
+* Don't forget to zero the x, y and z axis properly.
