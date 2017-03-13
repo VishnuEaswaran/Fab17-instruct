@@ -13,30 +13,40 @@ Details
 This weeks objectives are
 
 +  Design a (physically)big object which can be made using the available CNC machine.
-  - Design in 2D and 3D for milling
-  - Design Rules
-
-    * Dependency on material
-    * Machine specific Dependencies
-    * etc
-
 
 + Machining what you have designed
 
-  - Details about ShopBot
+> Managing time is crucial for this week as one may find it difficult to finalise on a project as their are many possibilities. The designing part might also take good amount of time - it completely depend on your 3D designing skills. Also most of the labs might only have a single CNC machine and long time for completing each projects. So kindly keep this in mind and proceed.
 
-    * bed size
-    * degrees of freedom
-    * about bits
-    * spindle
-    * x, y & z motion
-    * etc
+Design
+===
+- Design in 2D and/or 3D for milling. Do a **test cut**, similar to what done during the Laser Cutting week, for determining the tolerance of the machine and the material.
+- Design Rules - Keeping note of the result of the *test cut* design something `big`.
 
-  - The software part
+  * Dependency on material - take into account the material thickness and physical properties like elasticity, reaction to stress, strain etc.
+  * Machine specific Dependencies - depending on the `tool bit` you have to determine the minimum machinable thickness. Fo cutting had materials like metals we would need to have some sought of coolant, as the machining process generates heat, or else pause in between for the tool bit to cool-down.
 
-    * positioning the spindle/bit and setting the origin
-    * Zeroing process
-    * etc
+Machining
+===
+
+- Details about ShopBot - the CNC available in our lab.
+
+  * bed size - 8x4 feet
+  * The longest side is the **x** axis and the shorter one is the **y** axis.
+  * degrees of freedom - 3
+  * about *tool bits*
+    - according to the diameter we have 1/8, 1/4, 1/2 inch and 6mm dia tool bits.
+    - according to the number of flutes present we have single, double and four flute tool bits.
+    - according to the action of the tool bit we have 2 varieties
+     * upcut - this removes the chips cut upward and out of the work piece. It results in fine finish on the top while rough at the bottom surface.
+     * downcut - this removes the chips and pushes it into the work piece. This provides a finer bottom and rough top surface finish.
+  * spindle - spindle is the end effector part which holds the tool bit and rotates to enable  machining. The speed of rotation depends mainly on the type of bit and type of machining material. You should read the machining handbook that comes with the ShopBot before experimenting with the spindle speed.
+
+- **The software part**
+
+  * V-Carve pro is th
+  * Zeroing process
+  * etc
 
 Safety First
 ===
