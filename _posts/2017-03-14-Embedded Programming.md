@@ -71,7 +71,8 @@ At the end of these, you must have used interrupts, switch denounce code etc.
 Additional tasks involves, trying different things
 
 - Programming and comparing the results like binary size execution time etc. in
-  - **AVR-C** : It is C programming with special modules for AVR architecture, which is a modified Harvard. It also needs [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) compiler for compiling the written code. It is well developed, robust compiler which has troubleshooting and facilities for spotting error
+
+  - **AVR-C** : It is C with special libraries for AVR architecture(which is a modified Harvard) and [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) is the compiler needed.
   - **Arduino** scripting language
   - **assembly**
   - **python**...
