@@ -72,14 +72,14 @@ Additional tasks involves, trying different things
 
 - Programming and comparing the results like binary size execution time etc. in
 
-  - **AVR-C** : It is C with special libraries for AVR architecture(which is a modified Harvard) and [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) is the compiler needed.
+  - **AVR-C** : It is C with special libraries for AVR architecture(which is a modified Harvard) and [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) is the compiler needed. [Link 1](https://www.youtube.com/playlist?list=PLA6BB228B08B03EDD). Go through this for getting all the fundamental concepts about programming in AVR-C.
   - **Arduino** scripting language
   - **assembly**
-  - **python**...
+  - **python** - [Micropython](http://micropython.org/)([git](https://github.com/micropython/micropython)) is a python port for microcontrollers. It is in active development and evolving rapidly. Many libraries of CPython has been ported and can be used while programming. The list of controllers supported by the project is listed in the documentation. I tried it in [NodeMCU Devkit](https://en.wikipedia.org/wiki/NodeMCU) and works smoothly. Refer to their [documentation](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html) which introduces to the environment.
 
 - Try different platforms
  - **AVR**
- - **ARM**
+ - **ARM** -Sayed in TVM has a [STM32Discovery](http://www.st.com/en/evaluation-tools/stm32vldiscovery.html) board and using ARM C we can write code for the same. I use eclipse with proper too-chain([link](http://gnuarmeclipse.github.io/blog/)) setup to program and flash the board. STM32 is a cortex M, M4 to be exact, processor and Discovery is a development board for the same. I vaguely followed this [tutorial](https://www.youtube.com/watch?v=HKX12hJApZM) to setup eclipse and the tool-chain.
  - **PIC**
  - ...
 
